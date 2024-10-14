@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int a=10;
+    printf("value of a before increament is %d\n",a);
+    printf("value of a after preincreament is %d\n",++a);
+    a++; //performing post increament
+    printf("value of a after postincreament is %d\n",a);
+    int b=10;
+    printf("value of a before decreament is %d\n",b);
+    printf("value of a after predecreament is %d\n",--b);
+    b--; //performing post increament
+    printf("value of a after postdecreament is %d\n",b);
+    return 0;
+    
+}
