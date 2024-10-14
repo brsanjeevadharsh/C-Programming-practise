@@ -5,7 +5,7 @@ int main()
     double num2;
     scanf("%f",&num1);
     scanf("%lf",&num2);
-    printf("%.15f\n",num1);
+    printf("%.5f\n",num1);
     printf("%.15lf",num2);
     return 0;
 }
