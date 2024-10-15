@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int number;
+    printf("enter the number");
+    scanf("%d",&number);
+    if(number<100 && number>=10)
+    {
+        printf("The given number is two digit");
+    }
+    else
+    {
+        printf("not two digit");
+    }
+    return 0;
+}
