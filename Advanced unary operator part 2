@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int a=1;
+    int b=++a + ++a + a++ + a++ + a++;
+    printf("%d",b);
+    return 0;
+}
+
+
+
+//Output of the above program is 18
+//always preincreament occurs at inital means we need to take the first value as secondly updated value.
