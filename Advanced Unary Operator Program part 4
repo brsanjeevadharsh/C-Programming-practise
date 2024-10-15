@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int a=1,b=2,c=5,d=11;
+    b = ++a + a++ + ++a + ++b;
+    printf("%d\n",b);
+    a=(--a)+a++ + b++ + c--;
+    printf("%d\n",a);
+    d=a-- + d++ + d + a++ + b--;
+     printf("%d\n",d);
+    c=--b + a++ +b + c--;
+    printf("%d\n",c);
+    return 0;
+}
