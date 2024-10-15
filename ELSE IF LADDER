@@ -1,0 +1,24 @@
+    #include <stdio.h>
+int main()
+{
+    int num;
+    printf("Enter the number:");
+    scanf("%d",&num);
+    if(num%3==0 && num%5==0)
+    {
+    printf("sanju weds geetha");
+    }
+    else if(num%5==0)
+    {
+        printf("geetha");
+    }
+    else if(num%3==0)
+    {
+        printf("sanju");
+    }
+    else
+    {
+        printf("breakup");
+    }
+    
+}
