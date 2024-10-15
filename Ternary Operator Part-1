@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    int number;
+    printf("Enter the input: ");
+    scanf("%d",&number);
+    int positivenumber=number>0?(number):(-number);
+    printf("Positive number is: %d",positivenumber);
+} 
