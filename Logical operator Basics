@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int hr,mn;
+    int fee;
+    printf("Enter the Entry Time(hour:minutes):");
+    scanf("%d:%d",&hr,&mn);
+    printf("Enter the Fee Status\n If Yes - Type 1\n,Else NO-Type 0\n");
+    printf("Enter the type:");
+    scanf("%d",&fee);
+    printf("%d",(hr<=8&&mn<=60&&fee==1));
+    return 0;
+}
