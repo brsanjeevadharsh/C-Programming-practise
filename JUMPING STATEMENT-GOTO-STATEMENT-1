@@ -1,0 +1,26 @@
+Transfer the program control from one part of code to another part of the code
+Three types of jump statements in C:
+1) Goto
+2)Break
+3)Continue
+
+Goto statement Code:
+
+#include <stdio.h>
+int main()
+{
+    int num;
+    odd:
+    printf("Enter the even number:");
+    scanf("%d",&num);
+    if(num%2==0)
+    {
+        printf("even number");
+    }
+    else
+    {
+        printf("%d Odd number\n",num);
+        goto odd;
+    }
+    return 0;
+}
