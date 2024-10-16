@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int odd=1;
+    while(odd<10)
+    {
+        if(odd%2!=0)
+        {
+            printf("%d\n",odd);
+        }
+        odd++;
+    }
+    return 0;
+}
