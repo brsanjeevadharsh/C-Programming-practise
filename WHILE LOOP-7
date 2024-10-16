@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    char a='A';
+    while(a<='Z')
+    {
+        printf("%c\t",a);
+        a++;
+    }
+}
+//updated code by B.R.SANJEEVADHARSH
+#include <stdio.h>
+int main()
+{
+    char a=65;
+    while(a<=90)
+    {
+        printf("%c\t",a);
+        a++;
+    }
+}
