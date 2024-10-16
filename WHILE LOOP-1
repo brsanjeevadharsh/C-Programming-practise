@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    int a=1;
+    char c[]="Amma";
+    while(a<=1000)                                                                                                           
+    {
+        printf("%s\n",c);
+        a++;
+    }
+}
