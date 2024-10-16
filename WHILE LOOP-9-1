@@ -1,0 +1,15 @@
+//  calculate Product of natural numbers using while loop
+#include <stdio.h>
+int main()
+{
+    int s=1;
+    int e=5;
+    int product=1;
+    while(s<=e)
+    {
+        product=product*s;
+        s++;
+    }
+    printf("Product of numbers is: %d",product);
+    return 0;
+}
