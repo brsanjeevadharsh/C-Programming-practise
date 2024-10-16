@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+int month;
+printf("Enter the month Number:");
+scanf("%d",&month);
+if(month>=1 && month<=12)
+{
+   printf("Month number is valid");
+}
+else
+{
+    printf("Month number is not valid");
+}
+    return 0;
+}
