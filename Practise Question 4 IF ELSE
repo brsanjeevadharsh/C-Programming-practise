@@ -1,0 +1,41 @@
+#include <stdio.h>
+int main()
+{
+    int m;
+    int y;
+    int d;
+    printf("Enter the year:");
+    scanf("%d",&y);
+    printf("Enter the month:");
+    scanf("%d",&m);
+    printf("Enter the date:");
+    scanf("%d",&d);
+    if((m==1 || m==3 || m==5 ||m==7 || m==8|| m==10 || m==12 )&&(d<=31)&&(y>=2000))
+    {
+        printf("The given date,month and year is valid");
+    }
+    else if((m==4 || m==6 || m==9 || m==11)&&(d<=30)&&(y>=2000))
+    {
+        printf("The given date,month and year is valid");
+    }
+    else if((m==2)&&(y>=2000))
+       {
+       if(((y%4==0)&&(y%100!=0)&&(d<=29)&&(m==2)&&(y>=2000)) || ((y%400==0)&&(d<=29)&&(m==2)&&(y>=2000)))
+       {
+        printf("The given date,month and year is valid");
+        }
+        else if((d<=28)&&(m==2)&&(y>=2000))
+        {
+            printf("The given date,month and year is valid");
+        }
+        else
+        {
+            printf("The given date,month and year is Invalid");
+        }
+       }
+    else
+    {
+        printf("The given date,month and year is Invalid");
+    }
+    return 0;
+}
