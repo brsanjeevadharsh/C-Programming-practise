@@ -35,7 +35,7 @@ int main()
        }
     else
     {
-        printf("The given date,month and year is Invalid");
+        printf("The given date,month and year is not valid");
     }
     return 0;
 }
