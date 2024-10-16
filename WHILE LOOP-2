@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    char c[] = "01";
+    repeat:
+    int a=1;
+    while(a<1000)
+    {
+        printf("%s",c);
+        a++;
+        goto repeat; 
+    }
+    return 0;
+}
