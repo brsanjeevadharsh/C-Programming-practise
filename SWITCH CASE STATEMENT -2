@@ -1,0 +1,38 @@
+#include <stdio.h>
+int main() {
+    int seatnumber;
+    printf("Enter the seat number:");
+    scanf("%d",&seatnumber);
+    int alloted=seatnumber%8;
+    // printf("The alloted seat number:%d",alloted);
+    switch(alloted)
+    {
+        case 1:
+        printf("Left Lower");
+        break;
+        case 2:
+        printf("Left Middle");
+        break;
+        case 3:
+        printf("Left Upper");
+        break;
+        case 4:
+        printf("Right Lower");
+        break;
+        case 5:
+        printf("Right Middle");
+        break;
+        case 6:
+        printf("Right Upper");
+        break;
+        case 7:
+        printf("Side Lower");
+        break;
+        case 0:
+        printf("Side Upper");
+        break;
+        default:
+        printf("Invalid Credential");
+    }
+    return 0;
+}
