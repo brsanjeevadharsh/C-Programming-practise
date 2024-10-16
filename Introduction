@@ -1,0 +1,5 @@
+Transfer the program control from one part of code to another part of the code
+Three types of jump statements in C:
+1) Goto
+2)Break
+3)Continue
