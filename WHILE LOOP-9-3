@@ -1,0 +1,24 @@
+//To print no of digits and to find whether the digits are even or odd numbers in the digit
+
+#include <stdio.h>
+int main() {
+    // Write C code here
+    int s=504;
+    int count=0;
+    while(s>0)
+    {
+        int num=s%10;
+        if(num%2==0)
+        {
+            printf("Even digits %d\n",num);
+        }
+        else
+        {
+            printf("Odd digits %d\n",num);
+        }
+        s=s/10;
+    count++;
+    }
+printf("No of digits is %d",count);
+    return 0;
+}
