@@ -1,0 +1,25 @@
+// To print the number of odd and the even digits in the number
+#include <stdio.h>
+int main() {
+    // Write C code here
+    printf("Try programiz.pro");
+    int c1=0;
+    int c2=0;
+    int s=1000;
+    while(s>0)
+    {
+    int num=s%10;
+    if(%2==0)
+    {
+        c1++;
+    }
+    else
+    {
+        c2++;
+    }
+     s/=10;
+}
+printf("even: %d\n",c1);
+printf("odd:%d\n",c2);
+    return 0;
+}
