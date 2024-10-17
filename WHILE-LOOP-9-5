@@ -1,0 +1,17 @@
+//To print the number of alphabets from 'a' to 'z' and 'A' to 'Z'
+#include <stdio.h>
+int main()
+{
+    char c='A';
+    int n=0;
+    while(c<='z')
+    {
+        if((c>='A'&& c<='Z') || (c>='a' && c<='z')){
+        printf("%c\t",c);
+        n++;}
+        c++;
+        
+    }
+    printf("\n%d",n);
+    return 0;
+}
