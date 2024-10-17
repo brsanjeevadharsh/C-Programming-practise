@@ -9,7 +9,7 @@ int main() {
     while(s>0)
     {
     int num=s%10;
-    if(%2==0)
+    if(num%2==0)
     {
         c1++;
     }
@@ -23,3 +23,6 @@ printf("even: %d\n",c1);
 printf("odd:%d\n",c2);
     return 0;
 }
+
+
+//Logic 
