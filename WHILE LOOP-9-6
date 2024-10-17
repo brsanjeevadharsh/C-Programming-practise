@@ -1,0 +1,14 @@
+//To print digits of given number separately
+#include <stdio.h>
+int main()
+{
+    int n=4567;
+    int num=0;
+    while(n>0)
+    {
+        int num=n%10;
+        printf("%d\n",num);
+        n++;
+        n/=10;
+    }
+}
