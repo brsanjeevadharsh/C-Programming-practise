@@ -1,0 +1,36 @@
+//1 1 1 1 1 
+//A A A A A 
+//2 2 2 2 2 
+//B B B B B 
+//3 3 3 3 3 
+
+#include <stdio.h>
+
+int main()
+{
+    int n=5;
+    int a=1;
+    int c='A';
+   for(int i=0;i<n;i++)
+   {
+       for(int j=0;j<n;j++)
+       {
+           if(i%2==0)
+           {
+               printf("%d ",a);
+           }
+           else
+           {
+             printf("%c ",c);   
+           }
+           
+       }
+       printf("\n");
+       if(i%2==0){
+       a++;}
+       else{
+       c++;}
+   }
+  
+    return 0;
+}
