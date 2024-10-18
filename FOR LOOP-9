@@ -1,0 +1,28 @@
+// 1a1a
+// 2b2b
+// 3c3c
+// 4d4d
+#include <stdio.h>
+int main()
+{
+    int n=4;
+     int a=1;
+     char c='a';
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            if(j%2==0)
+            {
+        printf("%d",a);
+            }
+            else
+            {
+                printf("%c",c);
+            }
+        }
+        printf("\n");
+        a++;
+        c++;
+    }
+}
