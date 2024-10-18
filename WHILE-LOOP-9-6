@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+    int fact;
+    int s=1;
+    int num;
+   printf("Enter the number:");
+   scanf("%d",&num);
+    int num1=0;
+    while(s<=num)
+    {
+        if(num%s==0)
+        {
+            printf("The factors are %d\n",s);
+            num1++;
+        }
+        s++;
+    }
+    printf("The count of the factors are %d\n",num1);
+    if(num1==2)
+    {
+        printf("prime number");
+    }
+    else
+    {
+        printf("Not prime number");
+    }
+}
