@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int fact;
+    int s=1;
+    int num=8;
+    int num1=0;
+    while(s<=num)
+    {
+        if(num%s==0)
+        {
+            printf("The factors are %d\n",s);
+            num1++;
+        }
+        s++;
+    }
+    printf("The count of the factors are %d",num1);
+}
