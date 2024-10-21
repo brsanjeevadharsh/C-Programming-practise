@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() 
+{
+    int n;
+  printf("enter no of elements:");
+  scanf("%d",&n);
+  int n1=1;
+    int array[n-n1];
+    printf("Enter the array elements:");
+    for(int i=0;i<n-n1;i++)
+    {
+        scanf("%d",&array[i]);
+    }
+     for(int i=0;i<n-n1;i++)
+    {
+        printf("%d\n",array[i]);
+    }
+    printf("%p\n",array);
+    //printf("%d",array[n+1]);
+    //to find the length of array using sizeof operator;
+    printf("%lu",sizeof(array)/sizeof(array[0]));
+    return 0;
+}
