@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+int n;
+printf("Enter the no of elements");
+scanf("%d",&n);
+int a[n];
+for(int i=0;i<n;i++)
+{
+    scanf("%d",&a[i]);
+}
+int l[n];
+int g[n];
+for(int i=0;i<n;i++)
+{
+    if(a[i]>25)
+    {
+       l[n]=a[i]; 
+      printf("Numbers greater than 25 are %d\n",a[i]);
+    }
+    else
+    {
+        g[n]=a[i];
+        printf("Numbers lesser than 25 are %d\n",a[i]);
+    }
+}
+return 0;
+}
