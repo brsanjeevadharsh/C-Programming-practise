@@ -1,0 +1,48 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main() {
+  int n=1;
+  while(n<10000000){
+   int c=0;
+  int temp1=n;
+  int temp2=n;
+  int sum=0;
+// count digit
+  while(n!=0)
+  {
+    c++;
+    n=n/10;
+  }
+  
+  while(temp1!=0)
+  {
+      int l=temp1%10;
+      int p=1;
+      int f=c;
+      while(f!=0)
+      {
+          p=p*l;
+          f--;
+      }
+     sum=sum+p;
+      temp1=temp1/10;
+   
+  }
+    
+  if(sum==temp2)
+  {
+    printf("%d \n",temp2);    
+  }
+  n=temp2;
+  n++;
+}
+  return 0;
+}
