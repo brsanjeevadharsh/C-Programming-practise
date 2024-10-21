@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main() {
+  int n=153,c=0;
+  int temp1=n;
+  int temp2=n;
+  int sum=0;
+// count digit
+  while(n!=0)
+  {
+    c++;
+    n=n/10;
+  }
+  
+  while(temp1!=0)
+  {
+      int l=temp1%10;
+      int p=1;
+      int f=c;
+      while(f!=0)
+      {
+          p=p*l;
+          f--;
+      }
+     sum=sum+p;
+      temp1=temp1/10;
+   
+  }
+    
+  if(sum==temp2)
+  {
+    printf("%d is Armstrong Number",temp2);    
+  }
+ else
+ {
+      printf("%d is  Not Armstrong Number",temp2);   
+ }
+
+  return 0;
+}
