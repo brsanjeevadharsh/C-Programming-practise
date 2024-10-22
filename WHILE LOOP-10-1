@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+    int n=1230;
+    int av=n;
+    int c=0;
+    int d=1;
+    while(n!=0)
+    {
+        int l1=n%10;
+        c+=l1;
+        n/=10;
+    }
+    while(av!=0)
+    {
+        int l2=av%10;
+        d*=l2;
+        av/=10;
+    }
+    printf("%d\n",c);
+    printf("%d\n",d);
+    if(c==d)
+    {
+        printf("The given number is spy number");
+    }
+    else
+    {
+        printf("Given number is not spy number");
+    }
+}
