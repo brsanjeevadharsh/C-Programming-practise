@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+    char str[50]={'a','b'};
+    printf("%s\n",str);
+    char str1[60]="brsanjeevadharsh";
+    printf("%s",str1);
+}
