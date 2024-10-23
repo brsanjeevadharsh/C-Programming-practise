@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+    char str21[100];
+    char str22[100];
+    char str23[100];
+    char str31[100];
+    char str32[100];
+    char str33[100];
+    printf("\n");
+    printf("enter the name of students:\n");
+    scanf("%[^\n]s",str21);
+    scanf(" %[^\n]s",str22);
+    scanf(" %[^\n]s",str23);
+    printf("enter the name of the institutes:\n");
+    scanf(" %[^\n]%*c",str31);
+    scanf(" %[^\n]%*c",str32);
+    scanf(" %[^\n]%*c",str33);
+    printf("The name list of students:\n");
+    printf("%s\n",str21);
+    printf("%s\n",str22);
+    printf("%s\n",str23);
+    printf("institute name of students:\n");
+    printf("%s\n",str31);
+    printf("%s\n",str32);
+    printf("%s\n",str33);
+    }
