@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    char a[10]="123";
+    printf("%s\n",a);
+    int sum=0;
+    for(int i=0;a[i]!='\0';i++)
+    {
+    int num=(int)a[i]-48;
+     sum+=num;
+    }
+    printf("sum value is%d ",sum);
+ }
